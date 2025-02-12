@@ -1,0 +1,28 @@
+upper bounds in equation form
+theoretical performance 1430 GFlop/s
+memory bandwith 288 GB/s
+
+
+γ1​(υ) = 1430
+γ2​(υ) =  1430/288
+Λ=min(γ1​(υ),γ2​(υ))
+
+balance points
+
+1430/288=4,965
+
+
+the operation intensity of the method
+for loop has
+19 FLOPS 
+memory is accessed twice and a double is 8 bytes so 8+8=16
+
+OI = 19/16 = 1,1875 FLOPs/Byte
+
+
+19/0,3
+
+achievable computational performance
+
+The reason why the achieved performance dosen't match the theoretical performance is because the code is memory bound.
+the GPU can't move data fast enough to match the performance and thus leading to a lesser performance.

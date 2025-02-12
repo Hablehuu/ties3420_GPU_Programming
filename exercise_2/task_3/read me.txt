@@ -1,0 +1,1 @@
+these results were done locally on my own PC with a RTX 3070 and amd ryzen 7 5800x 8 core processor.

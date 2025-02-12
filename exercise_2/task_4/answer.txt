@@ -1,0 +1,19 @@
+1.
+
+16*32=512
+the GPU has 512 processing elements. They each operate with a clock frequenzy of 1.544 GHz and the elements perform one calcuilation per cycle
+512* 1.544×10^9 * 1= 790528000000 flops or 790.5 GFLOPS
+
+the computational performance is therefore 790.5 GFLOPS.
+
+
+2.
+speedup can be calculated using Amdahl's Law.
+
+1/((1-p)+p/N)
+
+p=0.76 and N=8
+
+1/((1-0.76)+0.76/8) = 2.985
+
+100*(1-(1/2.985)) = 66.5 % faster
